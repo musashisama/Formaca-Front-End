@@ -26,32 +26,15 @@ p {
 	margin: 20px 0;
 }
 
-blockquote {
-	background-color: #D9E5E3;
-	border: 10px solid #C2CCCA;
-	width: 250px;
-	box-sizing: border-box;	
-}
-.fiat{
-    float: right;
-}
-.petrobras{
-    float: left;
-}
-
 aside {
 	background-color: #3C1D3D;
     color: #F2FFFC;
     text-align: center;
     clear: right;
     box-sizing: border-box;
-    
-}
-
-aside, img{
-    float: right;
     width: 15%;
-
+    position: relative;
+    top: 310px;
 }
 
 nav a {
@@ -106,13 +89,13 @@ h2 {
     
 }
 .github{
-    background-image: url(github.png);
+    background-image: url(../img/github.png);
 }
 .twitter{
-    background-image: url(twitter.png);
+    background-image: url(../img/twitter.png);
 }
 .linkedin{
-    background-image: url(linkedin.png);
+    background-image: url(../img/linkedin.png);
 }
 .social-rodape{
     margin: 60px;
@@ -121,28 +104,35 @@ h2 {
     background-color: #000;
     color: #F2FFFC;
     padding: 20px;
-}
-article {
-    padding-bottom: 30px;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 20px;
-}
-.leia-mais {
-    padding: 8px;
-    margin: 16px;
-    display: block;
-    font-size: 24px;
-    text-align: center;
-    background-color: #E6E7E8;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
 }
 main{
     float: left;
     width: 85%;
 }
-footer{
-    clear: both;
-}
+
 cite {
     font-style: italic;
     float: right;
+}
+.minha-foto, .navegacao-site {
+    float: right;    
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+.minha-foto{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.container{
+    margin: 0 auto;
+    width: 840px;
+    padding: 40px 0;
+    padding-bottom: 80px;
 }
